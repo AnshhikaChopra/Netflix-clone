@@ -112,11 +112,18 @@
 }
 
 #startBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 62px;
     width: 200px;
     background-color: rgb(229, 9, 20);
     font-size: 28px;
     margin-left: 8px;
+}
+
+#startBtn div{
+    margin-left: 10px;
 }
 
 .sections{
@@ -292,9 +299,12 @@ footer{
 #footlist li{
     width: 278px;
     margin-top: 14px;
-    text-decoration: underline;
-    color: #ffffffb3;
     font-size: 14px;
+}
+
+#footlist a{
+    color: #ffffffb3;
+    text-decoration: underline;
 }
 
 #langfoot{
